@@ -101,7 +101,7 @@ TPMI device 0000:e2:00.1  package 0  segment 0  partition 0  (PFS 0x383ffff00000
 
 ### Validated Environment
 
-The tool was validated on an `Intel(R) Xeon(R) 6986P-C` (Granite Rapids-AP,
+The tool was validated on an `Intel(R) Xeon(R) 6900P series` (Granite Rapids-AP,
 240 logical CPUs / 120 cores / 3 power domains) running Debian 12 with kernel
 6.6:
 
@@ -239,7 +239,7 @@ TPMI device 0000:e2:00.1  package 0  segment 0  partition 0  (PFS 0x383ffff00000
 
 ## 已验证环境
 
-在 `Intel(R) Xeon(R) 6986P-C`（Granite Rapids-AP，240 逻辑核 / 120 core / 3 个 power domain）
+在 `Intel(R) Xeon(R) 6900P 系列`（Granite Rapids-AP，240 逻辑核 / 120 core / 3 个 power domain）
 + Debian 12、kernel 6.6 上实测通过：
 
 - 发现 TPMI 设备 `0000:00:03.1`，BAR1 `0xd0400000`，PFS 列出 15 个 feature，含 `0x0c plr`（5 实例）
